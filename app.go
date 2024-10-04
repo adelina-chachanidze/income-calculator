@@ -27,3 +27,15 @@ func main() {
 	fmt.Println("Your ratio:", ratio)
 }
 
+func withInput (infoText string) float64 {
+	var userInput float64
+	fmt.Print(infoText)
+	fmt.Scan(&userInput)
+	return userInput
+	
+
+
+	
+}
+
+
